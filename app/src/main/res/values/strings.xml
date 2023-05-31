@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">콩류</string>
+
+    <string name="title_kidneybeans">강낭콩</string>
+    <string name="title_redbeans">팥</string>
+    <string name="title_mungbeans">녹두</string>
+    <string name="title_peas">완두</string>
+
+    <string name="category">카테고리\n콩류</string>
+
+    <string name="term_kidneybeans">재배기간\n약 50일</string>
+    <string name="term_redbeans">재배기간\n약 90일</string>
+    <string name="term_mungbeans">재배기간\n약 120일</string>
+    <string name="term_peas">재배기간\n약 80일</string>
+
+    <string name="title_environment">잘 자라는 환경조건</string>
+
+    <string name="description_environment_kidneybeans">⦁ 싹트는 온도 : 20∼30℃\n⦁ 잘 자라는 온도 : 10∼25℃\n⦁ 토양조건 : 수분을 잘 보유하고 물빠짐도 잘되는 식양토가 좋음\n⦁ 토양산도 : pH5.5∼6.8\n⦁ 토양수분 : 습해에 비교적 약하여 습해를 받으면 아래쪽 잎이 누렇게 변하여 낙엽의 시기가 빨리 오고 인산흡수가 저해되므로 배수에 관심을 가져야 함
+</string>
+    <string name="description_environment_redbeans">⦁ 싹트는 온도 : 10℃ 이상\n⦁ 잘 자라는 온도 : 25∼30℃\n⦁ 토양조건 : 물빠짐이 좋고 보수력이 풍부한 식양토가 좋음\n⦁ 토양산도 : pH5.5∼6.5\n⦁ 토양수분 : 과도한 습도나 물이 풍부한 토양에서는 뿌리 부분이 부패할 수 있으므로 토양이 너무 축축한 상태를 피하는 것이 좋음</string>
+    <string name="description_environment_mungbeans">⦁ 싹트는 온도 : 15∼25℃\n⦁ 잘 자라는 온도 : 28∼30℃\n⦁ 토양조건 : 어느 토양에서나 잘 자라지만 사질토양에서 가장 잘 자람\n⦁ 토양산도 : pH6.3∼7.3\n⦁ 토양수분 : 토양수분이 부족하면 녹두가 너무 빨리 성숙하지만, 등숙기에 건조한 날씨는 종자생산에 유리함</string>
+    <string name="description_environment_peas">⦁ 싹트는 온도 : 25∼30℃\n⦁ 잘 자라는 온도 : 12∼16℃\n⦁ 토양조건 : 배수가 좋은 질참흙 또는 참흙이 적당함\n⦁ 토양산도 : pH5.5.6∼6.5\n⦁ 토양수분 : 수분에 약해 배수가 불량한 곳에서는 뿌리가 자라지 못하고 식물체가 일찍부터 마르고 병의 발생도 많음</string>
+</resources>
