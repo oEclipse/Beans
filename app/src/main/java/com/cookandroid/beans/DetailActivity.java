@@ -16,6 +16,8 @@ public class DetailActivity extends AppCompatActivity {
     TextView mTerm;
     TextView mEnv1;
     TextView mEnv2;
+    TextView mCult1;
+    TextView mCult2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,8 @@ public class DetailActivity extends AppCompatActivity {
         mTerm = findViewById(R.id.tvTerm);
         mEnv1 = findViewById(R.id.tvEnv1);
         mEnv2 = findViewById(R.id.tvEnv2);
+        mCult1 = findViewById(R.id.tvCult1);
+        mCult2 = findViewById(R.id.tvCult2);
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -44,6 +48,8 @@ public class DetailActivity extends AppCompatActivity {
             mTitle.setText(mBundle.getString("Title"));
             mEnv1.setText(mBundle.getString("Environment1"));
             mEnv2.setText(mBundle.getString("Environment2"));
+            mCult1.setText(mBundle.getString("Cultivate1"));
+            mCult2.setText(mBundle.getString("Cultivate2"));
         }
     }
 }

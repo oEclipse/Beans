@@ -43,6 +43,8 @@ public class MyAdapter extends RecyclerView.Adapter<BeanViewHolder> {
                 mIntent.putExtra("Term", mBeanList.get(holder.getAdapterPosition()).getBeanTerm());
                 mIntent.putExtra("Environment1", mBeanList.get(holder.getAdapterPosition()).getBeanEnv1());
                 mIntent.putExtra("Environment2", mBeanList.get(holder.getAdapterPosition()).getBeanEnv2());
+                mIntent.putExtra("Cultivate1", mBeanList.get(holder.getAdapterPosition()).getBeanCult1());
+                mIntent.putExtra("Cultivate2", mBeanList.get(holder.getAdapterPosition()).getBeanCult2());
                 mContext.startActivity(mIntent);
             }
         });
@@ -62,6 +64,8 @@ class BeanViewHolder extends RecyclerView.ViewHolder {
     TextView mTerm;
     TextView mEnv1;
     TextView mEnv2;
+    TextView mCult1;
+    TextView mCult2;
     CardView mCardView;
 
     BeanViewHolder(View itemView) {
@@ -73,6 +77,8 @@ class BeanViewHolder extends RecyclerView.ViewHolder {
         mTerm = itemView.findViewById(R.id.tvTerm);
         mEnv1 = itemView.findViewById(R.id.tvEnv1);
         mEnv2 = itemView.findViewById(R.id.tvEnv2);
+        mCult1 = itemView.findViewById(R.id.tvCult1);
+        mCult2 = itemView.findViewById(R.id.tvCult2);
         mCardView = itemView.findViewById(R.id.cardview);
     }
 }

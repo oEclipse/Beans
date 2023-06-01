@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mGridLayoutManager);
 
         mBeanList = new ArrayList<>();
-        mBeanData = new BeanData("강낭콩", getString(R.string.category), getString(R.string.term_kidneybeans), getString(R.string.title_environment), getString(R.string.description_environment_kidneybeans),
+        mBeanData = new BeanData("강낭콩", getString(R.string.category), getString(R.string.term_kidneybeans), getString(R.string.title_environment), getString(R.string.description_environment_kidneybeans), getString(R.string.title_cultivate), getString(R.string.description_cultivate_kidneybeans),
                 R.drawable.kidneybeans);
         mBeanList.add(mBeanData);
-        mBeanData = new BeanData("팥", getString(R.string.category), getString(R.string.term_redbeans), getString(R.string.title_environment), getString(R.string.description_environment_redbeans),
+        mBeanData = new BeanData("팥", getString(R.string.category), getString(R.string.term_redbeans), getString(R.string.title_environment), getString(R.string.description_environment_redbeans), getString(R.string.title_cultivate), getString(R.string.description_cultivate_redbeans),
                 R.drawable.redbeans);
         mBeanList.add(mBeanData);
-        mBeanData = new BeanData("녹두", getString(R.string.category), getString(R.string.term_mungbeans), getString(R.string.title_environment), getString(R.string.description_environment_mungbeans),
+        mBeanData = new BeanData("녹두", getString(R.string.category), getString(R.string.term_mungbeans), getString(R.string.title_environment), getString(R.string.description_environment_mungbeans), getString(R.string.title_cultivate), getString(R.string.description_cultivate_mungbeans),
                 R.drawable.mungbeans);
         mBeanList.add(mBeanData);
-        mBeanData = new BeanData("완두", getString(R.string.category), getString(R.string.term_peas), getString(R.string.title_environment), getString(R.string.description_environment_peas),
+        mBeanData = new BeanData("완두", getString(R.string.category), getString(R.string.term_peas), getString(R.string.title_environment), getString(R.string.description_environment_peas), getString(R.string.title_cultivate), getString(R.string.description_cultivate_peas),
                 R.drawable.peas);
         mBeanList.add(mBeanData);
 
