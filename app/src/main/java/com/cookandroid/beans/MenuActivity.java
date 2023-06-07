@@ -9,7 +9,7 @@ import android.os.Bundle;
 import java.util.List;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
 
     Toolbar mToolbar;
     RecyclerView mRecyclerView;
@@ -24,8 +24,11 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = findViewById(R.id.toolbar);
         mToolbar.setTitle(getResources().getString(R.string.app_name));
         mRecyclerView = findViewById(R.id.recyclerview);
-        GridLayoutManager mGridLayoutManager = new GridLayoutManager(MainActivity.this, 2);
+        GridLayoutManager mGridLayoutManager = new GridLayoutManager(MenuActivity.this, 2);
         mRecyclerView.setLayoutManager(mGridLayoutManager);
+
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mBeanList = new ArrayList<>();
         mBeanData = new BeanData("강낭콩", getString(R.string.category), getString(R.string.term_kidneybeans), getString(R.string.title_environment), getString(R.string.description_environment_kidneybeans), getString(R.string.title_cultivate), getString(R.string.description_cultivate_kidneybeans),
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.peas);
         mBeanList.add(mBeanData);
 
-        MyAdapter myAdapter = new MyAdapter(MainActivity.this, mBeanList);
+        MyAdapter myAdapter = new MyAdapter(MenuActivity.this, mBeanList);
         mRecyclerView.setAdapter(myAdapter);
     }
 }

@@ -15,7 +15,7 @@
         <activity
             android:name=".DetailActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"> <!-- 뒤로가기 -->
+            android:parentActivityName=".MenuActivity"> <!-- 뒤로가기 -->
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -29,6 +29,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
